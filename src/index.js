@@ -1,3 +1,5 @@
+//Ejemplo
+
 const moment = require("moment"); //Librería de moment
 const saludo = "hola es mi primer webpack";
 console.log(saludo);
@@ -8,9 +10,8 @@ console.log(moment("hola-k-tal", "YY-MM-DD").isValid()); //false
 
 
 
-
 const saludo2 = () =>{
     alert("saludos desde alert");
 }
 
-saludo2();
+saludo2(); 
